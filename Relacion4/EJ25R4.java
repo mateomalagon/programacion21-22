@@ -28,7 +28,7 @@ Total: 10,25 €*/
   
   double cm = altura*anchura;
   double base = cm*0.01;
-  System.out.println("Bandera de "+cm+" cm2: "+base+"€");
+  System.out.println("Bandera de "+cm+" cm2: "+base+" €");
   
   if (bordado.equals("s")) {
   System.out.println("Con bandera: 2,50 €");
@@ -42,11 +42,11 @@ Total: 10,25 €*/
   
   if (bordado.equals("s")) {
   double total = base+2.50+3.25;
-  System.out.println("Total: "+total+"€");
+  System.out.println("Total: "+total+" €");
 	}
    if (bordado.equals("n")) {
   double total = base+3.25;
-  System.out.println("Total: "+total+"€");
+  System.out.println("Total: "+total+" €");
 	}
   }
   }
