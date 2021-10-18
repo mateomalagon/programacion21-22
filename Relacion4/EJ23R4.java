@@ -22,13 +22,13 @@ Precio con IVA 27.50
 Cód. promo. (mitad): -13.75
 TOTAL 13.75  */
 
-double iva, promo, total, baseconiva, base;
+double iva = 0, promo = 0, total, baseconiva, base;
   baseconiva = base + iva;
   total = baseconiva - promo;
 
 
   System.out.println("Introduce la base imponible:");
-    double base = s.nextDouble();
+     base = Integer.parseInt(System.console().readLine());
   System.out.println("Introduce el tipo de IVA (general, reducido o superreducido):");
     String tipo = System.console().readLine();
   System.out.println("Introduce el código promocional (nopro, mitad, meno5 o 5porc):");
