@@ -13,7 +13,7 @@ Introduzca la altura de la L: 5
 * * *     */
   
   int h=0;
-  int ancho=1;
+
   
     System.out.print("Altura de la L: ");
     h = Integer.parseInt(System.console().readLine());
