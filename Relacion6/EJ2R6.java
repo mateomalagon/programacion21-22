@@ -54,6 +54,6 @@ String.valueOf(n).*/
     default:
     carta = String.valueOf(numerocarta);
     }
-    System.out.println(carta + " de " + palo);
+    System.out.println("Te ha salido un "+carta + " de " + palo);
   }
 }
